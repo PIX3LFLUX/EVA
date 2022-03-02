@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=Serial Terminal
+Exec=lxterminal --command="screen /dev/ttyUSB0 115200"

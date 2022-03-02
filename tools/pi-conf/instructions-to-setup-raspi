@@ -1,0 +1,14 @@
+- Navigate to https://downloads.raspberrypi.org/ and download the zip from https://downloads.raspberrypi.org/raspios_oldstable_armhf/images/raspios_oldstable_armhf-2021-12-02/
+- Extract the zip and flash the .img file to a micro SD card.
+- Plug the SD card into the Raspberry Pi 4 Model B and supply power to it.
+- Follow the setup procedure, leave the password empty for automated login.
+- Go to Preferences > Raspberry Pi Configuration > Display > Screen Blanking > Disable to disable display blackout on input inactivity.
+- Righclick the panel (= Task Bar), navigate to the panel settings and make it fold when not hovered over.
+- Connect the Pi to the internet.
+- Open a terminal and install screen and unclutter using
+"sudo apt-get install -y unclutter screen"
+- Shut the Pi down by running
+"sudo shutdown now"
+- Plug the SD card into a computer and copy the contents of the "config" Folder to rootfs/home/pi/.config.
+- Merge and overwrite defaults.
+- You're done.

@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Hide Mouse Cursor
+Exec=unclutter -idle 1
+NoDisplay=True
