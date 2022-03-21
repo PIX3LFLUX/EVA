@@ -2,6 +2,8 @@
 An autonomous slot car for Carrera Digital 124 / 132, project with hardware and software components.
 It's  written with PlatformIO using the Arduino framework.
 
+![EVA hardware](https://github.com/PIX3LFLUX/EVA/blob/master/eva-hardware.jpg?raw=true)
+
 ## General Information
 This project was the author's Bachelor's Thesis at Hochschule Karlsruhe (HKA).
 Documentation of the project as a whole is thus only available in german language.
